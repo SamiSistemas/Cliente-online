@@ -18,11 +18,12 @@ Content-Type: application/json
 #### **Dados**
 ```php
 URL: URL_API/auth/login
-
+```
 
 #### **Method: POST**
 
 ##### **Headers:**
+
 ```json
 Content-Type: application/json
 ```
@@ -30,6 +31,7 @@ Content-Type: application/json
 
 ```
 ##### **Body**
+
 ```body
 { 
         codigo: (string) required
@@ -39,6 +41,7 @@ Content-Type: application/json
 
 
 ##### **Request**
+
 ```json
 { 
         "codigo": "15b803aea398e8dcf3ac8e5971e4dcc2",
