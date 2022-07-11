@@ -6,7 +6,7 @@ Integração com whatsapp Opa Suite
 <!--ts-->
    * [Login](#Login)
    * [Boleto](#Boleto)
-      * [Id](#Boleto-id)
+      * [Recuperar boleto pelo id](#Boleto-id)
    * [Pessoa](#Pessoa)
    
 <!--te-->
