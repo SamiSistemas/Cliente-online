@@ -1,4 +1,4 @@
-# Cliente-online
+# Cliente Online
 Integração com whatsapp Opa Suite
 
 #Serviços de Integração
@@ -30,13 +30,6 @@ URL: URL_API/auth/login
 ```
 
 #### **Method: POST**
-
-##### **Headers:**
-
-```json
-Content-Type: application/json
-```
-
 
 ##### **Request**
 
@@ -76,11 +69,6 @@ Method: GET
 ```json
   Type: Bearer Token
   Token: required
-```
-
-##### **Headers:**
-```json
-  Content-Type: application/json
 ```
 
 ##### **Body**
@@ -165,12 +153,6 @@ URL: URL_API/boleto/{id}
 
 #### **Method: GET**
 
-##### **Headers:**
-
-```json
-Content-Type: application/json
-```
-
 
 ##### **Body**
 
@@ -228,13 +210,6 @@ URL: URL_API/pessoa
   Type: Bearer Token
   Token: required
 ```
-
-##### **Headers:**
-
-```json
-Content-Type: application/json
-```
-
 
 ##### **Body**
 
