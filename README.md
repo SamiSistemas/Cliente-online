@@ -6,15 +6,9 @@ Integração com whatsapp Opa Suite
 <!--ts-->
    * [Login](#Login)
    * [Boleto](#Boleto)
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+      * [Id](#Boleto-id)
+   * [Pessoa](#Pessoa)
+   
 <!--te-->
 
 #### **Dados**
@@ -63,6 +57,7 @@ Content-Type: application/json
 }
 ```
 
+#
 
 
 # Boleto
@@ -157,5 +152,122 @@ Method: GET
   }
 ],
 "total": 1
+}
+```
+
+# Boleto-id
+
+
+#### **Dados**
+```php
+URL: URL_API/boleto/{id}
+```
+
+#### **Method: GET**
+
+##### **Headers:**
+
+```json
+Content-Type: application/json
+```
+
+
+##### **Body**
+
+```json
+{ 
+        sigla: (string) required
+}
+```
+
+##### **Request**
+
+```json
+{ 
+        "sigla": "bar"
+}
+```
+
+
+##### **Response**
+```json
+{ 
+        "objeto": "boleto",
+        "item": {
+          "modulo": "condominio",
+          "id": 1565045,
+          "valor": "460.03",
+          "vencimento": "2022-09-03",
+          "condominio": {
+          "id": 98,
+          "nome": "PRINCIPE REGENTE"
+          },
+          "unidade": {
+          "id": 2352,
+          "nome": "301"
+          },
+          "link": "https://clienteonline.samisistemas.com.br/TCPDF/examples/ImprimirBoletoEmail.php?p=bar1955548068238855E"
+        }
+}
+```
+
+
+
+# Pessoa
+
+
+#### **Dados**
+```php
+URL: URL_API/pessoa
+```
+
+#### **Method: GET**
+
+#### **Authorization**
+```json
+  Type: Bearer Token
+  Token: required
+```
+
+##### **Headers:**
+
+```json
+Content-Type: application/json
+```
+
+
+##### **Body**
+
+```json
+{ 
+        sigla: (string) required
+}
+```
+
+##### **Request**
+
+```json
+{ 
+       "sigla": "gvg",
+       "cpf_cnpj": "11643639803",
+        "telefone": "5186232347"
+}
+```
+
+
+##### **Response**
+```json
+{ 
+        "objeto": "pessoa",
+        "id": "",
+        "nome": "NEWTON RIBEIRO DA ROSA",
+        "fantasia": "",
+        "cpf_cnpj": "11643639803",
+        "telCelular": "5186232347",
+        "telResidencial": "5135412347",
+        "telComercial": "",
+        "email": "testedasami@gmail.com",
+        "senha": "",
+        "status": true
 }
 ```
