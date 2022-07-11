@@ -32,7 +32,7 @@ Content-Type: application/json
 ```
 ##### **Body**
 
-```c
+```json
 { 
         codigo: (string) required
         usuario: (string) required
@@ -84,8 +84,8 @@ Method: GET
   Content-Type: application/json
 ```
 
-```
 ##### **Body**
+
 ```json
 { 
     "sigla": "bar",
