@@ -32,7 +32,7 @@ Content-Type: application/json
 ```
 ##### **Body**
 
-```body
+```c
 { 
         codigo: (string) required
         usuario: (string) required
@@ -65,7 +65,8 @@ Content-Type: application/json
 
 #### **Dados**
 ```php
-URL: URL_API/boleto
+URL: URL_API/boleto 
+```
 
 #### **Method**
 ```json
@@ -85,7 +86,7 @@ Method: GET
 
 ```
 ##### **Body**
-```body
+```json
 { 
     "sigla": "bar",
     "cpf_cnpj": "40200310020"
