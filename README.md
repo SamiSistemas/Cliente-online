@@ -29,17 +29,6 @@ Content-Type: application/json
 ```
 
 
-```
-##### **Body**
-
-```json
-{ 
-        codigo: (string) required
-        usuario: (string) required
-}
-```
-
-
 ##### **Request**
 
 ```json
