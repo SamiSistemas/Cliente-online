@@ -35,8 +35,8 @@ URL: URL_API/auth/login
 
 ```json
 { 
-        "codigo": "15b803aea398e8dcf3ac8e5971e4dcc2",
-        "usuario": "96aC#f56A_sS31f#dF37"
+        "codigo": "SOLICITAR",
+        "usuario": "SOLICITAR"
 }
 ```
 
@@ -44,7 +44,7 @@ URL: URL_API/auth/login
 ##### **Response**
 ```json
 { 
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sMS53aG1zYW0uY29tLmJyXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjUxMTY4MDkxLCJleHAiOjE2NTExNzUyOTEsIm5iZiI6MTY1MTE2ODA5MSwianRpIjoidlJ0UFB2Q3NWQTB6ZmdiOSIsInN1YiI6NywicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.rnppVsJB6957l_zeuwc9mpXj9a0zbmRitTk-YzMDGa0",
+        "access_token": "RETORNO_TOKEN",
         "token_type": "bearer",
         "expires_in": 7200
 }
@@ -75,8 +75,8 @@ Method: GET
 
 ```json
 { 
-    "sigla": "bar",
-    "cpf_cnpj": "40200310020"
+    "sigla": "SOLICITAR",
+    "cpf_cnpj": "SOLICITAR"
 }
 ```
 
@@ -84,8 +84,8 @@ Method: GET
 ##### **Request**
 ```json
 { 
-        "codigo": "15b803aea398e8dcf3ac8e5971e4dcc2",
-        "usuario": "96aC#f56A_sS31f#dF37"
+        "codigo": "SOLICITAR",
+        "usuario": "SOLICITAR"
 }
 ```
 
@@ -119,8 +119,8 @@ Method: GET
 ##### **Exemplo de request boleto locação**
 ```json
 {
-  "sigla": "bar",
-  "cpf_cnpj": "74932640900"
+  "sigla": "SOLICITAR",
+  "cpf_cnpj": "SOLICITAR"
 }
 ```
 
@@ -166,7 +166,7 @@ URL: URL_API/boleto/{id}
 
 ```json
 { 
-        "sigla": "bar"
+        "sigla": "SOLICITAR"
 }
 ```
 
@@ -223,9 +223,9 @@ URL: URL_API/pessoa
 
 ```json
 { 
-       "sigla": "gvg",
-       "cpf_cnpj": "11643639803",
-        "telefone": "5186232347"
+       "sigla": "SOLICITAR",
+       "cpf_cnpj": "SOLICITAR",
+        "telefone": "SOLICITAR"
 }
 ```
 
