@@ -2,7 +2,16 @@
 
 #### **Dados**
 ```php
-URL: auth/login
+URL: http://l1.whmsam.com.br/api/auth/login
+
+
+#### **Method: POST**
+
+##### **Headers:**
+```json
+Content-Type: application/json
+```
+
 
 ```
 ##### **Body**
